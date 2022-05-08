@@ -1,0 +1,16 @@
+### DOCKER COMMANDS ###
+alias startDocker="~/Documents/Docker/startDocker.sh"
+alias stopDocker="~/Documents/Docker/stopDocker.sh"
+
+### MINIKUBE COMMANDS ###
+alias miniStart='minikube start --addons=dashboard --addons=metrics-server --addons="ingress" --addons="ingress-dns" '
+alias miniStop="minikube stop"
+
+### GENERIC ALIASES ###
+alias k="kubectl"
+
+########### TERRAFORM ##############
+alias tfFmt="terraform fmt"
+alias tfInit="terraform init"
+alias tfPlan="terraform plan"
+alias tfApply="terraform apply"
